@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #3A6FFF;
+}
+
+.scr{
+	display: inline;
+}
+
+.but{
+	border: none;
+	background-color: #3A6FFF;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: solid 2px #3A6FFF;
+	color: white
+}
+
+.but:hover{
+	animation: ani 2s;
+	transition-timing-function: ease-in;
+}
+
+@keyframes ani{
+	from{
+		background-color: #3A6FFF;
+		color:white;
+		border:solid 1px #3A6FFF;
+	}to{
+		background-color: white;
+		color: #3A6FFF;
+		border: solid 3px #3A6FFF;
+	}
+}
+
+.You,.scr_b{
+	color: white;
+}
